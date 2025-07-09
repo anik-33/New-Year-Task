@@ -1,0 +1,244 @@
+/* univrsal body style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* google fonts style  */
+
+.open-sans-merriweather {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* header style  */
+header {
+    position: relative;
+    /* top: 50px; */
+    /* left: 140px; */
+    margin: 50px 140px;
+}
+
+/* banner style  */
+.banner {
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 600px; 
+    border-radius: 16px;
+    /* margin-top: 56px;
+    margin-left: 95px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+/* banner text style  */
+.banner-texts {
+    text-align: center;
+    margin-top: 227px;
+    margin-left: 343px;
+    margin-right: 345px;
+    margin-bottom: 183px;
+
+}
+
+.heading-32 {
+    font-weight: 260;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.banner-second-heading {
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.banner-third-heading {
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+/* discount section style  */
+.discount-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 60px 310px
+}
+
+.discount-div {
+    text-align: center;
+}
+
+.discount-text1 {
+    font-weight: 383;
+    font-size: 107px;
+    color: #FF0000;
+}
+
+.discount-text2 {
+    font-weight: 397;
+    font-size: 29px;
+    color: #FF0000;
+}
+
+.discount-text3 {
+    font-weight: 410;
+    font-size: 58px;
+    color: #070211;
+}
+
+/* welcome section style  */
+.welcome-items {
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-item {
+    /* margin: 10px 10px; */
+    padding: 126px 55px;
+}
+
+.item-heading {
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+
+.item-description {
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* join now section  */
+.join-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 100px;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(180deg,
+            rgba(255, 0, 0, 0.1) 0%,
+            rgba(255, 0, 0, 0) 100%);
+
+}
+
+.join-now-items {
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-left: 385px;
+    margin-right: 385px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.join-now-item {
+    font-weight: 600;
+    font-size: 32px;
+    color: #070211;
+}
+
+.join-now-span {
+    color: #FF0000;
+}
+
+.join-btn {
+    margin-top: 20px;
+
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FF0000;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* comming soon style  */
+.comming-soon-parent-div {
+    margin-top: 120px;
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.comming-soon-left-div,
+.comming-soon-right-div {
+    width: 33%;
+}
+
+.comming-soon-middle-div {
+    width: 34%;
+}
+
+
+.comming-soon-left-heading1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 18px;
+}
+
+.comming-soon-left-heading2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+}
+
+.comming-soon-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.bold-2024 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #FF0000;
+
+}
+
+.comming-soon-middle-div img {
+    width: 80%;
+}
+
+.circle-container {}
