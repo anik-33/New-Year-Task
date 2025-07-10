@@ -318,7 +318,24 @@ header {
     width: 64%;
     margin: 12px;
 }
-
+.input-container{
+    display: flex;
+    margin-top: 20px;
+}
+.input-container input{
+     width: 100%;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  padding: 24px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.input-container button{
+    border-radius: 0 50px 50px 0;
+}
 /* footer style  */
 .footer-container {
     height: 610px;
